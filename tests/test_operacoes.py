@@ -11,6 +11,11 @@ CASOS_SOMA = [
     (-1, 1, 0),
     (0, 0, 0),
     (2.5, 2.5, 5.0),
+] + [
+    # exp(run-07): aumento artificial da quantidade de testes (~5x)
+    (a, b, a + b)
+    for a in range(7)
+    for b in range(7)
 ]
 
 
