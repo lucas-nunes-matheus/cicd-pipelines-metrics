@@ -20,8 +20,7 @@ def test_somar(a, b, esperado):
 
 
 def test_subtrair():
-    # exp(run-05): falha proposital do experimento — reverter no run-06
-    assert operacoes.subtrair(10, 4) == 7
+    assert operacoes.subtrair(10, 4) == 6
 
 
 def test_multiplicar():
