@@ -1,5 +1,7 @@
 """Testes do módulo calculadora.operacoes."""
 
+import time
+
 import pytest
 
 from calculadora import operacoes
@@ -81,3 +83,9 @@ def test_fibonacci():
 def test_fibonacci_negativo():
     with pytest.raises(ValueError):
         operacoes.fibonacci(-1)
+
+
+def test_lento_simulado():
+    # exp(run-09): teste lento proposital — simula suite pesada (I/O, integração)
+    time.sleep(30)
+    assert operacoes.fibonacci(30) == 832040
