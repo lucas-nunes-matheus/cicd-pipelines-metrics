@@ -1,0 +1,3 @@
+pytest==8.*
+pytest-json-report==1.*
+ruff==0.*
