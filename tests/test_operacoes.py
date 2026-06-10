@@ -1,7 +1,5 @@
 """Testes do módulo calculadora.operacoes."""
 
-import time
-
 import pytest
 
 from calculadora import operacoes
@@ -13,11 +11,6 @@ CASOS_SOMA = [
     (-1, 1, 0),
     (0, 0, 0),
     (2.5, 2.5, 5.0),
-] + [
-    # exp(run-08): aumento artificial da quantidade de testes (~10x)
-    (a, b, a + b)
-    for a in range(11)
-    for b in range(11)
 ]
 
 
@@ -83,9 +76,3 @@ def test_fibonacci():
 def test_fibonacci_negativo():
     with pytest.raises(ValueError):
         operacoes.fibonacci(-1)
-
-
-def test_lento_simulado():
-    # exp(run-09): teste lento proposital — simula suite pesada (I/O, integração)
-    time.sleep(30)
-    assert operacoes.fibonacci(30) == 832040
