@@ -1,3 +1,27 @@
 run_id,commit_sha,commit_message,status,workflow_duration,job_name,job_duration,test_count,test_failures,timestamp,avg_test_time,run_attempt,lead_time_s
 27306176271,a89386f237ce9443385256d13d92bf9f4f8daab0,"feat(run-01): baseline — projeto, testes e pipeline CI inicial",success,14.0,lint,9.0,16,0,2026-06-10T21:03:00Z,0.0001,1,96.0
 27306176271,a89386f237ce9443385256d13d92bf9f4f8daab0,"feat(run-01): baseline — projeto, testes e pipeline CI inicial",success,14.0,test,10.0,16,0,2026-06-10T21:03:00Z,0.0001,1,96.0
+27307336491,c8e63921436cdc41d1de5a0c8930bcf3dcda39c9,feat(run-02): repetição baseline — script de coleta de métricas,success,14.0,test,9.0,16,0,2026-06-10T21:24:38Z,0.0001,1,79.0
+27307336491,c8e63921436cdc41d1de5a0c8930bcf3dcda39c9,feat(run-02): repetição baseline — script de coleta de métricas,success,14.0,lint,8.0,16,0,2026-06-10T21:24:38Z,0.0001,1,79.0
+27307722430,830c4e29c9ea3b80e3d0a34443ae9d964d9a83b2,feat(run-03): habilita cache de pip nos jobs lint e test,success,15.0,test,9.0,16,0,2026-06-10T21:32:03Z,0.0001,1,159.0
+27307722430,830c4e29c9ea3b80e3d0a34443ae9d964d9a83b2,feat(run-03): habilita cache de pip nos jobs lint e test,success,15.0,lint,10.0,16,0,2026-06-10T21:32:03Z,0.0001,1,159.0
+27307871395,1d17c8ed663868a8ebb99b8aae398eaf8229bf1e,feat(run-04): (run-04): repeticao com cache quente - script de graficos,success,17.0,lint,8.0,16,0,2026-06-10T21:34:52Z,0.0001,1,154.0
+27307871395,1d17c8ed663868a8ebb99b8aae398eaf8229bf1e,feat(run-04): (run-04): repeticao com cache quente - script de graficos,success,17.0,test,12.0,16,0,2026-06-10T21:34:52Z,0.0001,1,154.0
+27307988407,a8c64b52a4149346f43734dfe7807a84bb3a9170,feat(run-05): quebra proposital de teste,failure,13.0,test,10.0,16,1,2026-06-10T21:37:10Z,0.0001,1,33.0
+27307988407,a8c64b52a4149346f43734dfe7807a84bb3a9170,feat(run-05): quebra proposital de teste,failure,13.0,lint,8.0,16,1,2026-06-10T21:37:10Z,0.0001,1,33.0
+27308063457,2010bdce75567fb1ce5b0e74330b9089b14c7305,feat(run-06): corrige teste quebrado no run-05,success,19.0,test,12.0,16,0,2026-06-10T21:38:42Z,0.0001,1,39.0
+27308063457,2010bdce75567fb1ce5b0e74330b9089b14c7305,feat(run-06): corrige teste quebrado no run-05,success,19.0,lint,13.0,16,0,2026-06-10T21:38:42Z,0.0001,1,39.0
+27308157078,8181867350f81dabc97c49c31b1c2f2cb5abb8aa,"feat(run-07): aumento artificial de testes (~5x, 65 testes)",success,17.0,test,9.0,65,0,2026-06-10T21:40:31Z,0.0001,1,27.0
+27308157078,8181867350f81dabc97c49c31b1c2f2cb5abb8aa,"feat(run-07): aumento artificial de testes (~5x, 65 testes)",success,17.0,lint,12.0,65,0,2026-06-10T21:40:31Z,0.0001,1,27.0
+27308281107,c3355ac2dbb0f549f841a149b1f0eebee929faa0,"featp(run-08): aumento artificial de testes (~10x, 137 testes)",success,29.0,lint,17.0,137,0,2026-06-10T21:42:56Z,0.0001,1,42.0
+27308281107,c3355ac2dbb0f549f841a149b1f0eebee929faa0,"featp(run-08): aumento artificial de testes (~10x, 137 testes)",success,29.0,test,14.0,137,0,2026-06-10T21:42:56Z,0.0001,1,42.0
+27308435165,263a5a7a4a041a1c9551dedf42f490500752238b,feat(run-09): introduz teste lento (sleep 30s),success,45.0,lint,12.0,138,0,2026-06-10T21:45:54Z,0.2175,1,57.0
+27308435165,263a5a7a4a041a1c9551dedf42f490500752238b,feat(run-09): introduz teste lento (sleep 30s),success,45.0,test,40.0,138,0,2026-06-10T21:45:54Z,0.2175,1,57.0
+27308620254,867a7b18eaed4eb879d9461343b32cdd6f53bded,feat(run-10): jobs sequenciais (test depende de lint),success,95.0,lint,40.0,138,0,2026-06-10T21:49:38Z,0.2175,1,112.0
+27308620254,867a7b18eaed4eb879d9461343b32cdd6f53bded,feat(run-10): jobs sequenciais (test depende de lint),success,95.0,test,39.0,138,0,2026-06-10T21:49:38Z,0.2175,1,112.0
+27308812787,57629535d549e90b7b8734b0b7223c1fefb6b553,feat(run-11): volta aos jobs paralelos,success,41.0,lint,10.0,138,0,2026-06-10T21:53:37Z,0.2175,1,57.0
+27308812787,57629535d549e90b7b8734b0b7223c1fefb6b553,feat(run-11): volta aos jobs paralelos,success,41.0,test,38.0,138,0,2026-06-10T21:53:37Z,0.2175,1,57.0
+27309062606,7c6262711fcc0a1213be13421b77f6636847d178,feat(run-12): repetição paralela — README de reprodução,success,47.0,test,43.0,138,0,2026-06-10T21:58:47Z,0.2175,1,58.0
+27309062606,7c6262711fcc0a1213be13421b77f6636847d178,feat(run-12): repetição paralela — README de reprodução,success,47.0,lint,11.0,138,0,2026-06-10T21:58:47Z,0.2175,1,58.0
+27309113580,ef62cc747b96d39ccb36582a78a24dfed1b1f3b1,feat(run-13): estado final limpo,success,12.0,test,9.0,16,0,2026-06-10T21:59:54Z,0.0001,1,23.0
+27309113580,ef62cc747b96d39ccb36582a78a24dfed1b1f3b1,feat(run-13): estado final limpo,success,12.0,lint,8.0,16,0,2026-06-10T21:59:54Z,0.0001,1,23.0
