@@ -8,7 +8,7 @@ Experimento prático de medição e análise de um pipeline CI/CD no GitHub Acti
 um projeto Python pequeno (módulo `calculadora`, pytest + ruff) é executado ≥12 vezes
 com variações controladas (cache, falhas, volume de testes, teste lento, paralelismo);
 as métricas reais são coletadas via API REST do GitHub por script próprio e analisadas
-em gráficos e relatório técnico. A especificação completa está em [`SPEC.md`](SPEC.md).
+em gráficos e relatório técnico.
 
 ## Estrutura
 
