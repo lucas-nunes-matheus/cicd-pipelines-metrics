@@ -16,7 +16,7 @@ jobs:
         with:
           python-version: "3.12"
           # PONTO DE VARIAÇÃO 1 (cache): adicionar/remover a linha abaixo
-          # cache: pip
+          cache: pip
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Run lint
@@ -33,7 +33,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          # cache: pip   # acompanha o PONTO DE VARIAÇÃO 1
+          cache: pip # acompanha o PONTO DE VARIAÇÃO 1
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Run tests
