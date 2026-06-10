@@ -24,8 +24,8 @@ jobs:
 
   test:
     runs-on: ubuntu-latest
-    # PONTO DE VARIAÇÃO 2 (paralelismo): needs presente = sequencial
-    needs: lint
+    # PONTO DE VARIAÇÃO 2 (paralelismo): descomentar p/ sequencial
+    # needs: lint
     steps:
       - name: Checkout
         uses: actions/checkout@v4
