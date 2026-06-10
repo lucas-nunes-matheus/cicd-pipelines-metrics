@@ -1,0 +1,18 @@
+run_id,job_name,step_name,step_duration,step_status
+27306176271,lint,Set up job,1.0,success
+27306176271,lint,Checkout,0.0,success
+27306176271,lint,Setup Python,0.0,success
+27306176271,lint,Install dependencies,4.0,success
+27306176271,lint,Run lint,0.0,success
+27306176271,lint,Post Setup Python,0.0,success
+27306176271,lint,Post Checkout,0.0,success
+27306176271,lint,Complete job,0.0,success
+27306176271,test,Set up job,1.0,success
+27306176271,test,Checkout,0.0,success
+27306176271,test,Setup Python,1.0,success
+27306176271,test,Install dependencies,4.0,success
+27306176271,test,Run tests,1.0,success
+27306176271,test,Upload test report,1.0,success
+27306176271,test,Post Setup Python,0.0,success
+27306176271,test,Post Checkout,0.0,success
+27306176271,test,Complete job,0.0,success
